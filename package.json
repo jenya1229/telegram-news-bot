@@ -26,6 +26,7 @@
     "cron": "^1.1.1",
     "html-entities": "^1.2.0",
     "node-telegram-bot-api": "^0.24.0",
-    "request": "^2.78.0"
+    "request": "^2.78.0",
+    "newsapi": "^2.2.0"
   }
 }
