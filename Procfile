@@ -1,1 +1,1 @@
-web: node jokes.js
+web: node index.js

@@ -3,4 +3,3 @@ src
 dist
 cron.js
 gulpfile.babel.js
-index.js
