@@ -2,7 +2,7 @@
   "name": "telegram-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "jokes.js",
+  "main": "index.js",
   "scripts": {
     "start": "node jokes.js"
   },
