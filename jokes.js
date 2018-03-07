@@ -14,7 +14,7 @@ var bot = new TelegramBot(token, {
 //bot.on это npm пакет "node-telegram-bot-api" который отправляет сообщения на указаный айдишник 
   
    url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=4f49388f6ba549bf8bff5bac87a26c99';
-   var job = new Cron('*/1 * * * *', function() {
+   var job = new Cron('*/2 * * * *', function() {
 
      request(url, function(error, response, body) {
       var sourcesLink = ["abc-news", "bbc-news", "associated-press", "bbc-sport", "bloomberg", "cbs-news", "breitbart-news", "cnbc", "crypto-coins-news", "daily-mail", "cnn", "engadget", "entertainment-weekly", "espn", "financial-post", "fortune", "fox-news", "fox-sports", "google-news-ru", "hacker-news", "independent", "lenta", "mtv-news", "nbc-news", "news24", "the-economist", "the-washington-post", "nbc-news"];
