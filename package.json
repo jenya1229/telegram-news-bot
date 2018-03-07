@@ -7,7 +7,7 @@
     "start": "node jokes.js"
   },
   "engines": {
-    "node": "v6.11.2"
+    "node": "6.11.2"
   },
   "author": "",
   "license": "ISC",
