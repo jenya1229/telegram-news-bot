@@ -27,8 +27,8 @@ var bot = new TelegramBot(token, {
       from: '2018-01-01',
       to: '2018-03-04',
       sources:`${randLink}`,
-      page: 5,
-      pageSize:5,
+      page: 1,
+      pageSize:1,
 
             }).then(response => {
                 let output = '';
