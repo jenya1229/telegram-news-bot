@@ -8,9 +8,7 @@ var TelegramBot = require('node-telegram-bot-api'),
     const newsapi = new NewsAPI('4f49388f6ba549bf8bff5bac87a26c99');
 
 
-var bot = new TelegramBot(token, {
-  polling: true,
-});
+
 //bot.on это npm пакет "node-telegram-bot-api" который отправляет сообщения на указаный айдишник 
   
    url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=4f49388f6ba549bf8bff5bac87a26c99';
