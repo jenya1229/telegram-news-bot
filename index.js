@@ -3,7 +3,7 @@ var TelegramBot = require('node-telegram-bot-api'),
     request = require('request'),
     Entities = require('html-entities').AllHtmlEntities,
     entities = new Entities(),
-    token = '512961337:AAFZZPKb14seQ2bZ3g9p_XipAJfqWxQnYlw';
+    token = '';
     const NewsAPI = require('newsapi');
     const newsapi = new NewsAPI('4f49388f6ba549bf8bff5bac87a26c99');
 
